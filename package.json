@@ -23,7 +23,6 @@
     "express": "^4.15.3",
     "get-form-data": "^1.2.5",
     "mocha": "^3.5.0",
-    "mongodb": "^2.2.30",
     "random-seed": "^0.3.0"
   }
 }
