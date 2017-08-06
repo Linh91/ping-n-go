@@ -1,3 +1,7 @@
+html * {
+  font-family: 'Handlee', cursive !important;
+  color: #ffffff !important;
+}
 html, body{
   height: 100%;
 }
@@ -9,27 +13,40 @@ body {
   background-attachment: fixed;
   background-size:  cover;
   background-color: black;
-  font-family: 'Handlee', cursive;
-  font-size: 40px;
 }
 
-.main-header, .second-header {
-    color: #ffffff;
+.main-header,
+.second-header,
+container,
+form {
     text-align: center;
-    text-shadow: 2px 2px #002966;
+}
+
+.main-header,
+.second-header,
+label {
+  text-shadow: 2px 2px #002966;
+}
+
+.main-header,
+.second-header {
     line-height: 35px;
 }
 
-.main-header {
-  margin-top: 150px;
-}
-.second-header {
-  line-height: 0px;
+.second-header,
+label {
   font-size: 30px;
 }
 
+.main-header {
+    margin-top: 150px;
+    font-size: 90px;
+}
+.second-header {
+    line-height: 0px;
+}
+
 input[type=text], select, textarea {
-    /*width: 100%;*/
     padding: 12px 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -39,23 +56,21 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #00aaff;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 27px;
-    font-family: 'Handlee', cursive;
     font-size: 16px;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #0099e6;
 }
 
 .container {
-    text-align: center;
     margin-right: 500px;
     display: block;
     margin-top: 100px;
@@ -65,11 +80,4 @@ form {
     margin-left: 55%;
     margin-right:25%;
     width: 50%;
-    text-align: center;
-}
-
-label {
-    font-size: 30px;
-    color: #ffffff;
-    text-shadow: 2px 2px #002966;
 }
