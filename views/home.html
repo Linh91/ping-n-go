@@ -3,15 +3,16 @@
 <head>
   <title>Weekend App</title>
   <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-  <link rel="stylesheet" href="../stylesheet/style.css">
+  <link rel="stylesheet" href="./stylesheet/style.css">
+  <script src="./src/script.js"></script>
 </head>
 <body>
   <h1 class="main-header"> Ping! n go</h1>
   <h3 class="second-header"><i>Find events near you!</i></h3>
   <div class="container">
-    <form action="/action_page.php">
+    <form id="location-form" action="/results" method="POST">
       <label for="fname">Please put in your location</label>
-      <input type="text" id="fname" name="firstname" placeholder="X , Y"><br>
+      <input type="text" id="fname" name="location" placeholder="X , Y"><br>
 
       <input type="submit" value="Ping! n Go">
     </form>

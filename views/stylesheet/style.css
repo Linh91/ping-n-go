@@ -1,6 +1,5 @@
 html * {
   font-family: 'Handlee', cursive !important;
-  color: #ffffff !important;
 }
 html, body{
   height: 100%;
@@ -26,6 +25,7 @@ form {
 .second-header,
 label {
   text-shadow: 2px 2px #002966;
+  color: #ffffff;
 }
 
 .main-header,
@@ -53,6 +53,8 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-left: 27px;
     margin-bottom: 18px;
+    color: black;
+    font-size: 18px;
 }
 
 input[type=submit] {
