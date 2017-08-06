@@ -3,19 +3,38 @@ html * {
 }
 
 body {
-  /*background-image:url('../images/ping-festival.jpg');*/
+  background-image:url('../images/ping-music.png');
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
-  /*background-color: black;*/
+  background-color: black;
+}
+
+.main-header {
+    margin-top: 150px;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 2px 2px #002966;
+    color: #ffffff;
+    line-height: 35px;
 }
 
 .results-header {
-  /*color: #ffffff;*/
   text-align: center;
+  margin-top: 50px;
+  line-height: 100px;
+  text-shadow: 2px 2px #002966;
+  color: #ffffff;
 }
 
 p {
   text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px #002966;
+  color: #ffffff;
+}
+
+.results-container {
+
 }
