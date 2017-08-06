@@ -23,31 +23,3 @@ console.log(rand1.intBetween(000, 005), rand2.floatBetween(0, 10), rand3.intBetw
 function intToFloat(num, decPlaces) {
   return num.toFixed(decPlaces);
 }
-
-
-// var m_w = 123456789;
-// var m_z = 987654321;
-// var mask = 0xffffffff;
-//
-// // Takes any integer
-// function seed(i) {
-//     m_w = i;
-//     m_z = 987654321;
-// }
-//
-// // Returns number between 0 (inclusive) and 1.0 (exclusive),
-// // just like Math.random().
-// function random()
-// {
-//     m_z = (36969 * (m_z & 65535) + (m_z >> 16)) & mask;
-//     m_w = (18000 * (m_w & 65535) + (m_w >> 16)) & mask;
-//     var result = ((m_z << 16) + m_w) & mask;
-//     result /= 4294967296;
-//     return result + 0.5;
-// }
-//
-// var seed = 1;
-// function random() {
-//     var x = Math.sin(seed++) * 10000;
-//     return x - Math.floor(x);
-// }

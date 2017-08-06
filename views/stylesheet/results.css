@@ -1,0 +1,17 @@
+html * {
+  font-family: 'Handlee', cursive !important;
+}
+
+body {
+  /*background-image:url('../images/ping-festival.jpg');*/
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  /*background-color: black;*/
+}
+
+.results-header {
+  color: #ffffff;
+  text-align: center;
+}
