@@ -13,9 +13,63 @@ body {
   font-size: 40px;
 }
 
+.main-header, .second-header {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px #002966;
+    line-height: 35px;
+}
+
 .main-header {
-  color: #ffffff;
-  line-height: 4;
-  text-align: center;
-  text-shadow: 2px 2px #002966;
+  margin-top: 150px;
+}
+.second-header {
+  line-height: 0px;
+  font-size: 30px;
+}
+
+input[type=text], select, textarea {
+    /*width: 100%;*/
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 27px;
+    margin-bottom: 18px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 27px;
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    text-align: center;
+    margin-right: 500px;
+    display: block;
+    margin-top: 100px;
+}
+
+form {
+    margin-left: 55%;
+    margin-right:25%;
+    width: 50%;
+    text-align: center;
+}
+
+label {
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px #002966;
 }
