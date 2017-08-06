@@ -74,13 +74,9 @@ input[type=submit]:hover {
 }
 
 .container {
-    margin-right: 500px;
-    display: block;
     margin-top: 100px;
 }
 
-form {
-    margin-left: 55%;
-    margin-right:25%;
-    width: 50%;
+label {
+    text-align: center;
 }

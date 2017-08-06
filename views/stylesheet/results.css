@@ -3,12 +3,12 @@ html * {
 }
 
 body {
-  background-image:url('../images/ping-music.png');
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: black;
+    background-image:url('../images/ping-music.png');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: black;
 }
 
 .main-header {
@@ -21,11 +21,11 @@ body {
 }
 
 .results-header {
-  text-align: center;
-  margin-top: 50px;
-  line-height: 100px;
-  text-shadow: 2px 2px #002966;
-  color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 100px;
+    text-shadow: 2px 2px #002966;
+    color: #ffffff;
 }
 
 p {
