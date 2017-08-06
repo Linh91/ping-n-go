@@ -1,0 +1,26 @@
+{
+  "name": "ping-n-go",
+  "version": "1.0.0",
+  "description": "Find events near you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linh91/ping-n-go.git"
+  },
+  "author": "Sammy Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linh91/ping-n-go/issues"
+  },
+  "homepage": "https://github.com/Linh91/ping-n-go#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "express": "^4.15.3",
+    "mocha": "^3.5.0",
+    "mongodb": "^2.2.30",
+    "sqlite": "^2.8.0"
+  }
+}
