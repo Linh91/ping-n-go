@@ -12,6 +12,10 @@ body {
 }
 
 .results-header {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
