@@ -1,0 +1,21 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  background-image:url('../images/ping-bg.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: black;
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+}
+
+.main-header {
+  color: #ffffff;
+  line-height: 4;
+  text-align: center;
+  text-shadow: 2px 2px #002966;
+}
