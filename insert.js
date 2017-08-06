@@ -13,9 +13,10 @@ var http = require('http');
 
 MongoClient.connect('mongodb://127.0.0.1:27017/pingdb', function(err, db) {
   if (err) throw err;
-  db.createCollection("events", function(err, res) {
+  var myobj = { event_id: "001", name: "Linkin park", price: "30.50", location: "3,0" };
+  db.collection("events").insertOne(myobj, function(err, res) {
     if (err) throw err;
-    console.log("Table created!");
+    console.log("1 record inserted");
     db.close();
   });
 });
