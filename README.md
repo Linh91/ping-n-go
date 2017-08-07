@@ -27,3 +27,7 @@ Direct to: http://localhost:3000/
 ### How to run test 
 
 ### Example of program run
+
+### How might you change your program if you needed to support multiple events at the same location?
+
+### How would you change your program if you were working with a much larger world size?
