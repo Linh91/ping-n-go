@@ -28,6 +28,9 @@ Direct to: http://localhost:3000/
 
 ### Example of program run
 
+- Program accepts user location co-ordinates
+- Program returns a list of five closest event with ticket price
+
 ### How might you change your program if you needed to support multiple events at the same location?
 
 ### How would you change your program if you were working with a much larger world size?
