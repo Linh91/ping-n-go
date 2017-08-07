@@ -55,7 +55,8 @@ input[type=text], select, textarea {
     margin-left: 27px;
     margin-bottom: 18px;
     color: black;
-    font-size: 18px;
+    font-size: 12px;
+    width: 50px;
 }
 
 input[type=submit] {
