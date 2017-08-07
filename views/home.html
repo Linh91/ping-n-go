@@ -10,10 +10,10 @@
   <h1 class="main-header"> Ping! n go</h1>
   <h3 class="second-header"><i>Find events near you!</i></h3>
   <div class="container">
-    <form id="location-form" action="/results" method="POST">
+    <form id="location-form" action="/results" method="POST" onsubmit="return validateLocation()">
       <label for="fname">Please put in your location</label><br>
-      <input type="text" id="fname" name="location" placeholder="X" onChange="validateLocation(x)">
-      <input type="text" id="fname" name="location" placeholder="Y" onChange="validateLocation(x)"><br>
+      <input type="text" id="fname" name="location" placeholder="X">
+      <input type="text" id="fname" name="location" placeholder="Y"><br>
       <input type="submit" value="Ping! n Go" onClick="return empty()">
     </form>
   </div>

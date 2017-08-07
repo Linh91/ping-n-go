@@ -7,11 +7,10 @@ function empty() {
   };
 }
 
-function validateLocation(x) {
-  console.log(x)
-  // if (input >= -10 && input <= 10) {
-  //   console.log
-  //   // alert("Please enter valid co-ordinates (x, y)");
-  // }
-
+function validateLocation() {
+  x = document.getElementById("fname").value;
+  if (x < -10 || x > 10) {
+      alert("Location must be between -10 to +10");
+      return false;
+  }
 }
