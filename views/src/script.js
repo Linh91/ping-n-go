@@ -8,7 +8,7 @@ function empty() {
 };
 
 function validateLocation() {
-  x = document.getElementById("fname").value;
+  x = document.getElementById("location-input").value;
 
   if (isNaN(x) || x < -10 || x > 10) {
       alert("Location must be between -10 to +10");
