@@ -6,8 +6,13 @@ var util = require("util");
 var module = require("../module");
 
 describe("Home page", function() {
+
+  beforeEach(function() {
+  request.get({ url: baseUrl }
+  });
+
   it("should return 200", function(done){
-    request.get({ url: baseUrl },
+    // request.get({ url: baseUrl },
     function(error, response, body) {
       expect(response.statusCode).to.equal(200);
       done();
@@ -15,7 +20,7 @@ describe("Home page", function() {
   });
 
   it("has app name - Ping! n Go", function(done){
-    request.get({ url: baseUrl },
+    // request.get({ url: baseUrl },
     function(error, response, body) {
       var bodyObj = JSON.stringify(body);
       expect(bodyObj).to.deep.include("Ping! n Go");
@@ -24,7 +29,7 @@ describe("Home page", function() {
   });
 
   it("has an introduction - Find events near you!", function(done){
-    request.get({ url: baseUrl },
+    // request.get({ url: baseUrl },
     function(error, response, body) {
       var bodyObj = JSON.stringify(body);
       expect(bodyObj).to.deep.include("Find events near you!");
@@ -33,7 +38,16 @@ describe("Home page", function() {
   });
 
   it("has a form", function(done){
-    request.get({ url: baseUrl },
+    // request.get({ url: baseUrl },
+    function(error, response, body) {
+      var bodyObj = JSON.stringify(body);
+      expect(bodyObj).to.deep.include("<form");
+      done();
+    });
+  });
+
+  it("has a form", function(done){
+    // request.get({ url: baseUrl },
     function(error, response, body) {
       var bodyObj = JSON.stringify(body);
       expect(bodyObj).to.deep.include("<form");
