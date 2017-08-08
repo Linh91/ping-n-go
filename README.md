@@ -1,6 +1,6 @@
 # Ping!nGo
 
-<img src="https://user-images.githubusercontent.com/17644847/29048406-49c3c83e-7bc8-11e7-955e-cf43aece08cd.png">
+<img src="https://user-images.githubusercontent.com/17644847/29082092-6e10b294-7c5c-11e7-9843-04a23182861f.png">
 
 This is an events program which searches a user's location and returns a list of the closest event with the cheapest tickets.
  
@@ -30,6 +30,16 @@ Direct to: http://localhost:3000/
 
 - Program accepts user location co-ordinates
 - Program returns a list of five closest event with ticket price
+
+### Features
+- Location must be between -10 to +10 (Y axis), and -10 to +10 (X axis)
+<img src="https://user-images.githubusercontent.com/17644847/29082166-9d01563a-7c5c-11e7-876f-2e19059c2fab.png">
+
+- Can not "Submit" if location input is empty
+<img src="https://user-images.githubusercontent.com/17644847/29082170-9fa5941e-7c5c-11e7-9773-de24437d9be3.png">
+
+
+
 
 ### How might you change your program if you needed to support multiple events at the same location?
 
