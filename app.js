@@ -22,7 +22,6 @@ app.post('/results', urlencodedParser, function (req, res) {
 	e1_id = require('random-seed').create(seed);
 	e1_price = require('random-seed').create(seed);
   e1_distance = require('random-seed').create(seed);
-  // e1_tickets = require('random-seed').create(seed);
 
   var e1_id = e1_id.intBetween(80, 100);
   var e1_price = e1_price.floatBetween(50, 100).toFixed(2);
@@ -61,11 +60,11 @@ app.post('/results', urlencodedParser, function (req, res) {
   var e5_distance = e5_distance.intBetween(17, 25);
 
   res.render('results-success', {data: req.body,
-                                  e1_id, e1_price, e1_distance,
-                                  e2_id, e2_price, e2_distance,
-                                  e3_id, e3_price, e3_distance,
-                                  e4_id, e4_price, e4_distance,
-                                  e5_id, e5_price, e5_distance});
+                                  e1_id, e1_price, e1_distance, e1_tickets,
+                                  e2_id, e2_price, e2_distance, e2_tickets,
+                                  e3_id, e3_price, e3_distance, e3_tickets,
+                                  e4_id, e4_price, e4_distance, e4_tickets,
+                                  e5_id, e5_price, e5_distance, e5_tickets});
 });
 
 app.listen(3000, function () {

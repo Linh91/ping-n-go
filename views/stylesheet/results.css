@@ -3,44 +3,43 @@ html * {
 }
 
 body {
-    background-image:url('../images/ping-music.png');
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    background-color: black;
+  background-image:url('../images/ping-music.png');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: black;
+}
+
+p,
+.main-header,
+.results-header {
+  text-align: center;
+  text-shadow: 2px 2px #002966;
+  color: #ffffff;
 }
 
 .main-header {
-    margin-top: 100px;
-    font-size: 90px;
-    text-align: center;
-    text-shadow: 2px 2px #002966;
-    color: #ffffff;
-    line-height: 30px;
+  margin-top: 100px;
+  font-size: 90px;
+  line-height: 30px;
 }
 
 .results-header {
-    text-align: center;
-    margin-top: 30px;
-    line-height: 50px;
-    text-shadow: 2px 2px #002966;
-    color: #ffffff;
+  margin-top: 30px;
+  line-height: 50px;
 }
 
 p {
-    text-align: center;
-    font-size: 22px;
-    text-shadow: 2px 2px #002966;
-    color: #ffffff;
+  font-size: 22px;
 }
 
 .results-box {
-    box-sizing: border-box;
-    border: 2px solid #efeff2;
-    border-radius: 10px;
-    margin: 60px auto;
-    text-align: left;
-    width: 35%;
-    max-width: 960px;
+  box-sizing: border-box;
+  border: 2px solid #efeff2;
+  border-radius: 10px;
+  margin: 60px auto;
+  text-align: left;
+  width: 35%;
+  max-width: 960px;
 }
