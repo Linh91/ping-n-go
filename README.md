@@ -18,6 +18,19 @@ This is an events program which searches a user's location and returns a list of
 
 ### How to get started
 
+<code> git clone https://github.com/Linh91/ping-n-go.git </code> <br>
+<code> npm install </code><br>
+<code> node app.js </code><br>
+<code>$ Example app listening on port 3000! </code><br>
+Direct to: http://localhost:3000/
+
 ### How to run test 
 
 ### Example of program run
+
+- Program accepts user location co-ordinates
+- Program returns a list of five closest event with ticket price
+
+### How might you change your program if you needed to support multiple events at the same location?
+
+### How would you change your program if you were working with a much larger world size?
