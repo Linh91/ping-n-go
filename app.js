@@ -22,6 +22,7 @@ app.post('/results', urlencodedParser, function (req, res) {
 	e1_id = require('random-seed').create(seed);
 	e1_price = require('random-seed').create(seed);
   e1_distance = require('random-seed').create(seed);
+  // e1_tickets = require('random-seed').create(seed);
 
   var e1_id = e1_id.intBetween(80, 100);
   var e1_price = e1_price.floatBetween(50, 100).toFixed(2);
@@ -33,7 +34,7 @@ app.post('/results', urlencodedParser, function (req, res) {
 
   var e2_id = e2_id.intBetween(40, 60);
   var e2_price = e2_price.floatBetween(20, 100).toFixed(2);
-  var e2_distance = e2_distance.intBetween(0, 6);
+  var e2_distance = e2_distance.intBetween(1, 6);
 
   e3_id = require('random-seed').create(seed);
 	e3_price = require('random-seed').create(seed);
