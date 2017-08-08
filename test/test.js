@@ -3,7 +3,6 @@ var request = require("request");
 var expect = require("chai").expect;
 var baseUrl = "http://localhost:3000/";
 var util = require("util");
-var module = require("../module");
 
 describe("Home page", function() {
   it("should return 200", function(done){
