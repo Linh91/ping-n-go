@@ -31,6 +31,9 @@ Direct to: http://localhost:3000/
 - Program accepts user location co-ordinates
 - Program returns a list of five closest event with ticket price
 
+<strong> User inputs 1,1:</strong>
+<img src="https://user-images.githubusercontent.com/17644847/29082432-67f81a68-7c5d-11e7-8073-c1a41cd78895.png">
+
 ### Features
 - Location must be between -10 to +10 (Y axis), and -10 to +10 (X axis)
 <img src="https://user-images.githubusercontent.com/17644847/29082166-9d01563a-7c5c-11e7-876f-2e19059c2fab.png">
