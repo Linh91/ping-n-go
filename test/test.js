@@ -21,13 +21,23 @@ describe("Home page", function() {
       expect(bodyObj).to.deep.include("Ping! n Go");
       done();
     });
+  });
 
-    it("has an introduction - Find events near you!", function(done){
-      request.get({ url: baseUrl },
-      function(error, response, body) {
-        var bodyObj = JSON.stringify(body);
-        expect(bodyObj).to.deep.include("Find events near you!");
-        done();
-      });
+  it("has an introduction - Find events near you!", function(done){
+    request.get({ url: baseUrl },
+    function(error, response, body) {
+      var bodyObj = JSON.stringify(body);
+      expect(bodyObj).to.deep.include("Find events near you!");
+      done();
+    });
+  });
+
+  it("has a form", function(done){
+    request.get({ url: baseUrl },
+    function(error, response, body) {
+      var bodyObj = JSON.stringify(body);
+      expect(bodyObj).to.deep.include("<form");
+      done();
+    });
   });
 });
